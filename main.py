@@ -223,7 +223,7 @@ def main():
                         
                         # Display location image if available
                         if place.get('photo_url'):
-                            st.image(place['photo_url'], caption=place['name'], use_column_width=True)
+                            st.image(place['photo_url'], caption=place['name'], use_container_width=True)
                         
                         st.write(place['description'])
                         
